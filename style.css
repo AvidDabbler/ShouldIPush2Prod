@@ -1,0 +1,39 @@
+:root{
+    --green: #1b9313;
+    --purple: #610f7f;
+    --pink: #e544ca;
+    --lblue: #5da1cc;
+    --blue: #3557ba;
+}
+
+html, body{
+    padding:0;
+    margin:0;
+    background:var(--lblue);
+
+}
+h1, h2, button{
+    display: flex;
+    margin:auto;
+    text-align: center;
+}
+h1, h2{
+    color: var(--purple);
+}
+button{
+    background-color: var(--green);
+    border: none;
+    padding: 50px;
+}
+.container{
+    width: 100%;
+    color: red;
+    display: flex;
+    margin: auto;
+}
+.top, .bottom{
+    margin: 200px 0 0 0;
+}
+.bottom{
+
+}
