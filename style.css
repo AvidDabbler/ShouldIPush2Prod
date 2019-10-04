@@ -16,6 +16,7 @@ h1, h2, button{
     display: flex;
     margin:auto;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1, h2{
     color: var(--purple);
