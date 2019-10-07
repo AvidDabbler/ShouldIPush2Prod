@@ -9,7 +9,8 @@
 html, body{
     padding:0;
     margin:0;
-    background:var(--lblue);
+    background:var(--blue);
+    width:100%;
 
 }
 h1, h2, button{
@@ -18,13 +19,18 @@ h1, h2, button{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
 h1, h2{
-    color: var(--purple);
+    color: var(--green);
 }
 button{
-    background-color: var(--green);
+    background-color: var(--purple);
+    border-radius: 5px;
     border: none;
     padding: 50px;
+}
+button:hover{
+    background-color: var(--pink);
 }
 .container{
     width: 100%;
@@ -36,5 +42,14 @@ button{
     margin: 200px 0 0 0;
 }
 .bottom{
-
+    width: 80%;
+    margin: 10%;
+    display: inline-flex;
+    align-content: center;
+}
+.image{
+    width: 100%;
+}
+.text{
+    width:100%;
 }
