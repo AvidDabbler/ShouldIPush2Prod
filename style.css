@@ -5,23 +5,19 @@
     --lblue: #5da1cc;
     --blue: #3557ba;
 }
-
 html, body{
     padding:0;
     margin:0;
     background:var(--blue);
     width:100%;
-
+    text-align: center;
 }
 h1, h2, button{
     display: flex;
     margin:auto;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1, h2{
     color: var(--green);
+    font-family: 'Courier New', Courier, monospace;
+
 }
 button{
     background-color: var(--purple);
@@ -30,26 +26,28 @@ button{
     padding: 50px;
 }
 button:hover{
-    background-color: var(--pink);
+    box-shadow: 15px 15px 20px 10px rgb(50, 81, 148);
 }
 .container{
     width: 100%;
-    color: red;
-    display: flex;
+    display: inline-block;
     margin: auto;
 }
 .top, .bottom{
-    margin: 200px 0 0 0;
+    margin: 5% 0;
 }
 .bottom{
-    width: 80%;
-    margin: 10%;
-    display: inline-flex;
-    align-content: center;
-}
-.image{
     width: 100%;
 }
-.text{
+.image, .text{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    align-content: center;
+}
+.image img{
     width:100%;
+}
+.text h2{
+    width: auto;
+    display: inline;
 }
