@@ -31,15 +31,14 @@ button:hover{
 button:active{
     box-shadow: 15px 15px 20px 10px rgb(58, 88, 151);
     background-color: var(--purple);
-    inner
 }
 .container{
     width: 100%;
     display: inline-block;
     margin: auto;
 }
-.top, .bottom{
-    margin: 5% 0;
+.top{
+    margin: 50px 0;
 }
 .bottom{
     width: 100%;
@@ -55,8 +54,9 @@ button:active{
     border-style: solid;
     border-width: 5px;
     border-color: var(--green);
+    max-width: 700px;
 }
-.text h2{
-    width: auto;
+.text h1{
     display: inline;
+    margin: auto;
 }
