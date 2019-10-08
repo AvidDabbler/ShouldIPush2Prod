@@ -3,10 +3,10 @@ const gifs = {
         `gifs/yes2.gif`,
         `gifs/yes3.gif`,
         `gifs/yes4.gif`,],
-    no:[`/gifs/no1.gif`,
-        `/gifs/no2.gif`,
-        `/gifs/no3.gif`,
-        `/gifs/no4.gif`,]
+    no:[`gifs/no1.gif`,
+        `gifs/no2.gif`,
+        `gifs/no3.gif`,
+        `gifs/no4.gif`,]
 }
 
 const id = (day) => {
