@@ -21,10 +21,10 @@ const dayOfWeek = () => {
     let i = id();
     if (day === 5){
         let gif = gifs.no[i];
-        doc.innerHTML = `<div class="image"><img src='${gif}'></div><br><div class="text"><h2>It is Friday! You should never push to production on Friday</h2></div>`;
+        doc.innerHTML = `<div class="image"><img src='${gif}'></div><br><div class="text"><h1>It is Friday! You should never push to production on Friday</h1></div>`;
 
     }else{
         let gif = gifs.yes[i];
-        doc.innerHTML = `<div class="image"><img src='${gif}'></div><br><div class="text"><h2>You can push to production today!</h2></div>`;   
+        doc.innerHTML = `<div class="image"><img src='${gif}'></div><br><div class="text"><h1>You can push to production today!</h1></div>`;   
     }
 }
